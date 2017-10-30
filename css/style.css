@@ -1,0 +1,87 @@
+/* General styles */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    /* tylko do sprawdzenia - do usunięcia  */
+    background-color: beige;
+}
+
+span{
+    font-weight: 400;
+    color: #1ac056;
+}
+/* General styles */
+
+
+/* Main menu styles */
+#main-menu {
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    }
+
+#main-menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    }
+
+#main-menu .menu-item{
+    display: inline-block;
+    padding: 25px;
+    }
+
+#main-menu .menu-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.5em;
+    transition: all 0.3s;
+ }
+
+#main-menu .menu-item a:hover {
+    color: #291f1a;
+}
+/* Main menu styles -End */
+
+
+/*Main header styles*/
+#main-header {
+    height: 100vh;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    }
+
+#main-header .header-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-header .header-caption h1, 
+#main-header .header-caption h2{
+    font-weight: 100;    
+}
+
+#main-header .header-caption h1{
+    font-size: 5em;
+}
+
+#main-header .header-caption h2{
+    font-size: 3em;
+}
+/*Main header styles - End*/
+
+
