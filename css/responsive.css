@@ -1,0 +1,66 @@
+/* W rozdzielczości poniżej 992px wszystkie elementy
+    układają się jeden pod drugim i są wycentrowane*/
+
+@media (max-width: 992px){
+    .col-1-2{
+    width: 100%;
+    text-align: center;
+    }
+    
+    #main-menu label[for="drop-menu"]{
+        display: block;
+        text-align: right;
+        color: 1ac056;
+        font-size: 1.5em;
+        padding: 25px;
+        }
+    
+    #main-menu .menu-item{
+        display: block;
+    }
+    
+    #main-menu #drop-menu:checked + ul{
+        display: block;
+    }
+    
+    #main-menu ul{
+        display: none;
+    }
+    
+    #portfolio .portfolio-item{
+    width: 100%;
+    }
+    
+    #contact form{
+        margin-top: 50px;
+    }
+    
+    #contact h2{
+        text-align: center;
+    }
+    
+    #contact .social-icon{
+        margin: 0 10px;
+    }
+}
+
+
+
+/* Elementy portfolio w przedziale 992-1200px
+    mają układać się 2 + 1 */
+
+@media (min-width: 992px) and (max-width: 1200px){
+    #portfolio .portfolio-item{
+    width: 50%;
+    }
+    
+    #portfolio .portfolio-item:last-child{
+    width: 100%;    
+    }
+    
+ /* 
+    #portfolio #portfolio-item-3{
+    width: 100%; 
+    } 
+*/
+}

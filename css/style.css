@@ -6,13 +6,31 @@
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
-    /* tylko do sprawdzenia - do usunięcia  */
-    background-color: beige;
 }
 
 span{
-    font-weight: 400;
+    font-weight: 300;
     color: #1ac056;
+}
+
+h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2em;
+}
+
+p{
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+section, footer{
+    padding: 80px 100px;
+}
+
+.col-1-2{
+    width: 50%;
+    float: left;
 }
 /* General styles */
 
@@ -23,18 +41,25 @@ span{
     position: fixed;
     width: 100%;
     z-index: 100;
-    }
+}
+#main-menu label[for="drop-menu"]{
+    display: none;
+}
+
+#main-menu #drop-menu{
+    display: none;
+}
 
 #main-menu ul {
     margin: 0;
     padding: 0;
     text-align: right;
-    }
+}
 
 #main-menu .menu-item{
     display: inline-block;
     padding: 25px;
-    }
+}
 
 #main-menu .menu-item a {
     text-decoration: none;
@@ -55,11 +80,10 @@ span{
     height: 100vh;
     background-image: url(../img/header-background.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: cover;
     position: relative;
     color: white;
-    }
+}
 
 #main-header .header-caption {
     position: absolute;
@@ -85,3 +109,186 @@ span{
 /*Main header styles - End*/
 
 
+/* About styles */
+#about{
+    background-color: #f9fcfe;
+    overflow: hidden;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+#about figure{
+    margin: 0;
+    text-align: center;
+}
+
+#about figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+/* About styles - End */
+
+
+/* Skills styles*/
+#skills{
+    text-align: center;
+}
+
+#skills .skills-item{
+    display: inline-block;
+}
+
+#skills .skills-item figcaption{
+    margin-top: 15px;
+    font-weight: 300;
+}
+/* Skills styles - End*/
+
+
+/* Portfolio styles */
+#portfolio {
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item{
+    height: 350px;
+    width: 33.3333%;
+    float: left;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+#portfolio .portfolio-item-mask{
+    height: 100%;
+    background-color: rgba(33, 59, 80, 0.7);
+    position: relative;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#portfolio .portfolio-item-mask:hover{
+    opacity: 1;
+}
+
+#portfolio .portfolio-item-border{
+    border: 1px solid #fff;
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#portfolio .portfolio-item-content{
+    color: #fff;
+    width: 99%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#portfolio .portfolio-item-content a{
+    color: #fff;
+    font-size: 2em;
+    transition: all 0.3s;
+}
+
+#portfolio .portfolio-item-content a:hover{
+    color: #1ac056;
+}
+
+#portfolio-item-1{
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio-item-2{
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio-item-3{
+    background-image: url(../img/portfolio3.jpg);
+}
+/* Portfolio styles - End*/
+
+
+/* Contact styles */
+#contact{
+    background-color: #213b50;
+    color: #fff;
+    overflow: hidden;
+}
+
+#contact h2{
+    text-align: left;
+}
+
+#contact address{
+    font-style: normal;    
+}
+
+#contact a{
+    text-decoration: none;
+    color: #1ac056;
+}
+
+#contact .social-icons{
+    margin-top: 40px;
+}
+
+#contact .social-icon{
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 2em;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+
+#contact .social-icon:hover{
+    color: #213b50;
+    background-color: #fff;
+}
+
+#contact input:not([type="submit"]),
+#contact textarea{
+    display: block;
+    width: 100%;
+    background-color: #456681;
+    border: 0;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+#contact input[type="submit"]{
+    background-color: #1ac056;
+    border: 0;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    transition: all 0.3;
+}
+
+#contact input[type="submit"]:hover{
+    cursor: pointer;
+    color: #1ac056;
+    background-color: #fff;
+}
+/* Contact styles - End */
+
+
+/* Copyright */
+.copyright{
+    background-color: #142634;
+    color: #fff;
+    padding: 10px 100px;        
+}
+/* Copyright - End */
