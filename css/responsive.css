@@ -2,31 +2,61 @@
     układają się jeden pod drugim i są wycentrowane*/
 
 @media (max-width: 992px){
+    
     .col-1-2{
     width: 100%;
     text-align: center;
     }
     
+    #main-menu {
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+        
     #main-menu label[for="drop-menu"]{
         display: block;
-        text-align: right;
-        color: 1ac056;
-        font-size: 1.5em;
-        padding: 25px;
-        }
+        text-align: left;
+        color: #1ac056;
+        font-size: 2em;
+        width: 50px;
+    }
+    
+    #main-menu .fa{
+        padding: 10px;
+        border: 2px solid #1ac056;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
     
     #main-menu .menu-item{
         display: block;
+        text-align: left;
+        font-size: 1em;
+        text-align: center;
     }
     
     #main-menu #drop-menu:checked + ul{
         display: block;
+        background-color: rgba(69, 102, 129, 0.9);
+        width: 50%;
+        border: 2px solid #1ac056;
+        border-radius: 5px;
+        overflow: hidden;
     }
     
     #main-menu ul{
         display: none;
     }
     
+    #main-menu.scrolled {
+        background-color: rgba(69, 102, 129, 0);
+    }
+    
+    #about p{
+/*        text-align: justify;*/
+    }
+            
     #portfolio .portfolio-item{
     width: 100%;
     }
@@ -45,17 +75,17 @@
 }
 
 
-
 /* Elementy portfolio w przedziale 992-1200px
     mają układać się 2 + 1 */
 
 @media (min-width: 992px) and (max-width: 1200px){
+    
     #portfolio .portfolio-item{
-    width: 50%;
+    width: 48%;
     }
     
     #portfolio .portfolio-item:last-child{
-    width: 100%;    
+    width: 98%;    
     }
     
  /* 
