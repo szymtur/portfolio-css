@@ -3,6 +3,10 @@
 
 @media (max-width: 992px){
     
+    section, footer, .copyright{
+    padding: 10px 20px;
+}
+    
     .col-1-2{
     width: 100%;
     text-align: center;

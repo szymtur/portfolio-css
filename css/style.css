@@ -278,7 +278,6 @@ section, footer{
     display: inline-block;
     text-align: center;
     line-height: 50px;
-    margin-right: 10px;
     transition: all 0.3s;
 }
 
