@@ -74,7 +74,8 @@ section, footer{
 }
 
 #main-menu.scrolled {
-    background-color: rgba(69, 102, 129, 0.8);
+    background-color: rgba(69, 102, 129, 0.9);
+    border-bottom: 1px solid #1ac056;
 }
 
 

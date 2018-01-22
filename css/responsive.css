@@ -13,7 +13,7 @@
     }
     
     #main-menu {
-        width: 100%;
+        width: 39%;
         margin-left: 20px;
         margin-top: 20px;
     }
@@ -42,7 +42,6 @@
     #main-menu #drop-menu:checked + ul{
         display: block;
         background-color: rgba(69, 102, 129, 0.9);
-        width: 50%;
         border: 2px solid #1ac056;
         border-radius: 5px;
         overflow: hidden;
@@ -55,6 +54,7 @@
     
     #main-menu.scrolled {
         background-color: rgba(69, 102, 129, 0);
+        border-bottom: 0px;
     }
     
     #about p{
