@@ -46,7 +46,8 @@ section, footer{
     display: none;
 }
 
-#main-menu #drop-menu{
+/* # maun-menu input[type=checkbox] */
+#main-menu #drop-menu{ 
     display: none;
 }
 
