@@ -57,11 +57,17 @@
         border-bottom: 0px;
     }
 
-    #main-header .header-caption h1{
+    #main-header .header-caption {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+
+    #main-header .header-caption h1 {
         font-size: 3em;
     }
 
-    #main-header .header-caption h2{
+    #main-header .header-caption h2 {
         width: 100vw;
         font-size: 1.9em;
     }
