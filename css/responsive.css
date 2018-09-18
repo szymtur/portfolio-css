@@ -3,13 +3,13 @@
 
 @media (max-width: 992px){
     
-    section, footer, .copyright{
-    padding: 10px 30px;
-}
+    section, footer, .copyright {
+        padding: 10px 20px;
+    }
     
     .col-1-2{
-    width: 100%;
-    text-align: center;
+        width: 100%;
+        text-align: center;
     }
     
     #main-menu {
@@ -56,16 +56,34 @@
         background-color: rgba(69, 102, 129, 0);
         border-bottom: 0px;
     }
+
+    #main-header .header-caption h1{
+        font-size: 3em;
+    }
+
+    #main-header .header-caption h2{
+        width: 100vw;
+        font-size: 1.9em;
+    }
     
     #about p{
-/*        text-align: justify;*/
+        text-align: justify;
+    }
+
+    #skills p{
+        text-align: justify;
+    }
+
+    #portfolio {
+        padding: 10px 10px;
     }
             
-    #portfolio .portfolio-item{
-    width: 100%;
+    #portfolio .portfolio-item {
+        width: 100%;
+        margin: 1% 0 2% 0;
     }
     
-    #contact form{
+    #contact form {
         margin-top: 50px;
     }
     
@@ -75,26 +93,20 @@
     
     #contact .social-icon{
         margin: 0 10px;
+        margin-right: 2%;
     }
 }
 
 
-/* Elementy portfolio w przedziale 992-1200px
-    mają układać się 2 + 1 */
+/* Elementy portfolio w przedziale 992-1200px mają układać się 2 + 1 */
 
 @media (min-width: 992px) and (max-width: 1200px){
     
     #portfolio .portfolio-item{
-    width: 48%;
+        width: 48%;
     }
     
     #portfolio .portfolio-item:last-child{
-    width: 98%;    
+        width: 98%;    
     }
-    
- /* 
-    #portfolio #portfolio-item-3{
-    width: 100%; 
-    } 
-*/
 }

@@ -2,6 +2,7 @@ $(document).ready(function() {
     scrolled();
     hideDropMenu();
     smoothScroll();
+    scrollTop();
 });
 
 $(window).scroll(function() {
@@ -38,5 +39,15 @@ function smoothScroll(){
                 window.location.hash = hash;
             });
         } 
+    });
+}
+
+function scrollTop(){
+    let buttonSubmit = $('input[type="submit"]');
+
+    buttonSubmit.on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 1500, 'linear');
+        return false;
     });
 }

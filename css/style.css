@@ -46,7 +46,6 @@ section, footer{
     display: none;
 }
 
-/* # maun-menu input[type=checkbox] */
 #main-menu #drop-menu{ 
     display: none;
 }
@@ -78,12 +77,10 @@ section, footer{
     background-color: rgba(69, 102, 129, 0.9);
     border-bottom: 1px solid #1ac056;
 }
+/* Main menu styles - End */
 
 
-/* Main menu styles -End */
-
-
-/*Main header styles*/
+/* Main header styles */
 #main-header {
     height: 100vh;
     background-image: url(../img/header-background.jpg);
@@ -133,7 +130,7 @@ section, footer{
 #about figure img {
     max-height: 350px;
     max-width: 100%;
-    border: 10px solid #fff;
+    border: 10px solid #ffffff;
     border-radius: 10px;
 }
 /* About styles - End */
@@ -142,6 +139,10 @@ section, footer{
 /* Skills styles*/
 #skills{
     text-align: center;
+}
+
+#skills p{
+    margin-bottom: 100px;
 }
 
 #skills .skills-item{
@@ -181,10 +182,7 @@ section, footer{
     background-position: center;
     background-size: cover;
     border-radius: 5px;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin: 1%  1% 1% 1%;
 }
 
 #portfolio .portfolio-item-mask{
@@ -202,7 +200,7 @@ section, footer{
 }
 
 #portfolio .portfolio-item-border{
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     height: 95%;
     width: 95%;
@@ -213,7 +211,7 @@ section, footer{
 }
 
 #portfolio .portfolio-item-content{
-    color: #fff;
+    color: #ffffff;
     width: 99%;
     text-align: center;
     padding: 1%;
@@ -223,7 +221,7 @@ section, footer{
 }
 
 #portfolio .portfolio-item-content a{
-    color: #fff;
+    color: #ffffff;
     font-size: 2em;
     transition: all 0.3s;
 }
@@ -271,9 +269,9 @@ section, footer{
 }
 
 #contact .social-icon{
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
-    color: #fff;
+    color: #ffffff;
     font-size: 2em;
     height: 50px;
     width: 50px;
@@ -281,11 +279,12 @@ section, footer{
     text-align: center;
     line-height: 50px;
     transition: all 0.3s;
+    margin-right: 9px;
 }
 
 #contact .social-icon:hover{
     color: #213b50;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 #contact input:not([type="submit"]),
@@ -305,7 +304,7 @@ section, footer{
     border: 0;
     border-radius: 5px;
     padding: 20px;
-    color: #fff;
+    color: #ffffff;
     text-transform: uppercase;
     float: right;
     transition: all 0.3;
@@ -314,7 +313,7 @@ section, footer{
 #contact input[type="submit"]:hover{
     cursor: pointer;
     color: #1ac056;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 /* Contact styles - End */
 
@@ -322,7 +321,7 @@ section, footer{
 /* Copyright */
 .copyright{
     background-color: #142634;
-    color: #fff;
+    color: #ffffff;
     padding: 10px 100px;        
 }
 /* Copyright - End */
