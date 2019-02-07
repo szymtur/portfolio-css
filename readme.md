@@ -1,4 +1,4 @@
-# Sit On Chair
+# Portfolio CSS
 
 ![](img/layout.png)
 
@@ -11,5 +11,6 @@ The CSS Layout Workshop.
 ### Technologies used:
 - HTML5
 - CSS3
+- RWD Media Queries
 - JavaScript
 - jQuery
