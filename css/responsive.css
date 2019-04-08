@@ -1,45 +1,45 @@
 /* W rozdzielczości poniżej 992px wszystkie elementy
-    układają się jeden pod drugim i są wycentrowane*/
+   układają się jeden pod drugim i są wycentrowane */
 
-@media (max-width: 992px){
-    
+@media (max-width: 992px) {
+
     section, footer, .copyright {
         padding: 10px 20px;
     }
-    
+
     .col-1-2{
         width: 100%;
         text-align: center;
     }
-    
+
     #main-menu {
         width: 50%;
         margin-left: 20px;
         margin-top: 20px;
     }
-        
-    #main-menu label[for="drop-menu"]{
+
+    #main-menu label[for="drop-menu"] {
         display: block;
         text-align: left;
         color: #1ac056;
         font-size: 2em;
         width: 50px;
     }
-    
-    #main-menu .fa{
+
+    #main-menu .fa {
         padding: 10px;
         border: 2px solid #1ac056;
         border-radius: 5px;
     }
-    
-    #main-menu .menu-item{
+
+    #main-menu .menu-item {
         display: block;
         text-align: left;
         font-size: 1em;
         text-align: center;
     }
-    
-    #main-menu #drop-menu:checked + ul{
+
+    #main-menu #drop-menu:checked + ul {
         display: block;
         background-color: rgba(69, 102, 129, 0.9);
         border: 2px solid #1ac056;
@@ -47,11 +47,11 @@
         overflow: hidden;
         margin-top: 10px;
     }
-    
-    #main-menu ul{
+
+    #main-menu ul {
         display: none;
     }
-    
+
     #main-menu.scrolled {
         background-color: rgba(69, 102, 129, 0);
         border-bottom: 0px;
@@ -72,32 +72,32 @@
         font-size: 1.9em;
     }
     
-    #about p{
+    #about p {
         text-align: justify;
     }
 
-    #skills p{
+    #skills p {
         text-align: justify;
     }
 
     #portfolio {
         padding: 10px 10px;
     }
-            
+
     #portfolio .portfolio-item {
         width: 100%;
         margin: 1% 0 2% 0;
     }
-    
+
     #contact form {
         margin-top: 50px;
     }
-    
-    #contact h2{
+
+    #contact h2 {
         text-align: center;
     }
-    
-    #contact .social-icon{
+
+    #contact .social-icon {
         margin: 0 10px;
         margin-right: 2%;
     }
@@ -106,13 +106,13 @@
 
 /* Elementy portfolio w przedziale 992-1200px mają układać się 2 + 1 */
 
-@media (min-width: 992px) and (max-width: 1200px){
-    
-    #portfolio .portfolio-item{
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    #portfolio .portfolio-item {
         width: 48%;
     }
-    
-    #portfolio .portfolio-item:last-child{
-        width: 98%;    
+
+    #portfolio .portfolio-item:last-child {
+        width: 98%;
     }
 }

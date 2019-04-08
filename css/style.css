@@ -1,5 +1,4 @@
 /* General styles */
-
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -35,11 +34,10 @@ footer {
     width: 50%;
     float: left;
 }
-
 /* General styles */
 
-/* Main menu styles */
 
+/* Main menu styles */
 #main-menu {
     background-color: rgba(255, 255, 255, 0);
     position: fixed;
@@ -84,11 +82,10 @@ footer {
     background-color: rgba(69, 102, 129, 0.9);
     border-bottom: 1px solid #1ac056;
 }
-
 /* Main menu styles - End */
 
-/* Main header styles */
 
+/* Main header styles */
 #main-header {
     height: 100vh;
     background-image: url(../img/header-background.jpg);
@@ -121,11 +118,10 @@ footer {
 #main-header .header-caption h2 {
     font-size: 2em;
 }
-
 /*Main header styles - End*/
 
-/* About styles */
 
+/* About styles */
 #about {
     background-color: #f9fcfe;
     overflow: hidden;
@@ -145,11 +141,10 @@ footer {
     border: 10px solid #ffffff;
     border-radius: 10px;
 }
-
 /* About styles - End */
 
-/* Skills styles*/
 
+/* Skills styles*/
 #skills {
     text-align: center;
 }
@@ -183,11 +178,10 @@ footer {
         -ms-transform: rotate(360deg);
             transform: rotate(360deg);
 }
-
 /* Skills styles - End*/
 
-/* Portfolio styles */
 
+/* Portfolio styles */
 #portfolio {
     overflow: hidden;
 }
@@ -267,11 +261,10 @@ footer {
 #portfolio-item-3 {
     background-image: url(../img/portfolio3.jpg);
 }
-
 /* Portfolio styles - End*/
 
-/* Contact styles */
 
+/* Contact styles */
 #contact {
     background-color: #213b50;
     color: #fff;
@@ -325,8 +318,8 @@ footer {
     border: 0;
     outline: none;
     margin-bottom: 20px;
-	padding: 15px;
-	overflow: hidden;
+    padding: 15px;
+    overflow: hidden;
 }
 
 #contact input[type="submit"] {
@@ -347,15 +340,13 @@ footer {
     color: #1ac056;
     background-color: #ffffff;
 }
-
 /* Contact styles - End */
 
-/* Copyright */
 
+/* Copyright */
 .copyright {
     background-color: #142634;
     color: #ffffff;
     padding: 10px 100px;
 }
-
 /* Copyright - End */
